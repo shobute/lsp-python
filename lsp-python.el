@@ -17,7 +17,7 @@
 						 (directory-files
 						  dir
 						  nil
-						  "\\(__init__\\|setup\\)\\.py")))
+						  ".git\\|setup\\.py")))
 			 '("pyls"))
 
 (provide 'lsp-python)
